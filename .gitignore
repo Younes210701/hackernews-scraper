@@ -1,0 +1,14 @@
+# Ignorer l'environnement virtuel
+venv/
+__pycache__/
+
+# Ignorer les fichiers de logs
+*.log
+
+# Ignorer la base de données et les fichiers CSV
+data/*.db
+data/*.csv
+
+# Ignorer les fichiers de cache
+*.pyc
+*.pyo

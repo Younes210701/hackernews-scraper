@@ -2,13 +2,13 @@
 
 Un script Python qui scrape les articles de Hacker News et les stocke dans une base SQLite et un fichier CSV.
 
-## 📦 Fonctionnalités
+## Fonctionnalités
 - Récupération des articles populaires de Hacker News
 - Stockage en **SQLite** et **CSV**
 - Exécution automatique **toutes les minutes** avec `schedule`
 - Journalisation des événements (`scraper.log`)
 
-## 🚀 Installation
+## Installation
 1. **Cloner le dépôt** :
    ```bash
    git clone https://github.com/Younes210701/hackernews-scraper.git
@@ -22,16 +22,4 @@ Un script Python qui scrape les articles de Hacker News et les stocke dans une b
 4. **Lancer le scheduler (scraping automatique)** :
    ```bash
    python scheduler.py
-
-## 📄 Licence
-Ce projet est sous licence MIT.
-
-```sql
-Ajoute ce fichier à Git :
-
-```bash
-git add README.md
-git commit -m "Ajout du README"
-git push origin main
-
 
